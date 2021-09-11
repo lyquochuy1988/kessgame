@@ -1,0 +1,114 @@
+/* Ipad pro */
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .pageHome .section--1 h2,
+    .pageHome .section--2 h2,
+    .pageHome .section--3 h2,
+    .pageHome .section--4 h2 {
+        font-size: 60px;
+    }
+    .pageHome .section--1 p,
+    .pageHome .section--2 p,
+    .pageHome .section--3 p,
+    .pageHome .section--4 p {
+        font-size: 3.6rem;
+    }
+    .pageHome .section--1 p.text-app {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* tablet and mobile */
+
+@media (max-width: 1023px) {
+    .pageHome .section--1 h2,
+    .pageHome .section--2 h2,
+    .pageHome .section--3 h2,
+    .pageHome .section--4 h2 {
+        font-size: 60px;
+    }
+    .pageHome .section--1 p,
+    .pageHome .section--2 p,
+    .pageHome .section--3 p,
+    .pageHome .section--4 p {
+        font-size: 3.2rem;
+    }
+    .pageHome .textBox {
+        margin-bottom: 3.2rem;
+    }
+    .pageHome .textBox.section-4-box {
+        margin-top: 3.2rem;
+        margin-bottom: 1rem;
+    }
+    .pageHome .section--1 p.text-app {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    .pageHome .section--1 h2,
+    .pageHome .section--2 h2,
+    .pageHome .section--3 h2,
+    .pageHome .section--4 h2 {
+        font-size: 52px;
+    }
+    .pageHome .section--1 p,
+    .pageHome .section--2 p,
+    .pageHome .section--3 p,
+    .pageHome .section--4 p {
+        font-size: 2.4rem;
+    }
+    .section--1 .link-apps ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+    .pageHome .textBox {
+        margin-top: 0.6rem;
+        margin-bottom: 2rem;
+    }
+    .textBox.section-4-box.simple-capture {
+        margin-top: 2rem;
+    }
+    .pageHome .section--1 p.text-app {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Small Mobile */
+
+@media (max-width: 500px) {
+    .pageHome .section--1 h2,
+    .pageHome .section--2 h2,
+    .pageHome .section--3 h2,
+    .pageHome .section--4 h2 {
+        font-size: 48px;
+    }
+    .pageHome .section--1 p,
+    .pageHome .section--2 p,
+    .pageHome .section--3 p,
+    .pageHome .section--4 p {
+        font-size: 2rem;
+    }
+    .pageHome .section--1 p.text-app {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .section--1 .link-apps ul {
+        display: grid;
+        grid-template-columns: none;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
