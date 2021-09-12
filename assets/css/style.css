@@ -803,7 +803,8 @@ button.app-store {
 .pageHome .section--3,
 .pageHome .section--4,
 .pageHome .section--4-1 {
-    padding-bottom: 6vw;
+    /* padding-bottom: 6vw; */
+    padding-bottom: 4vw;
 }
 
 .pageHome .section--2 figure,
@@ -868,6 +869,10 @@ button.app-store {
     color: #fff;
 }
 
+.pageHome .kess-board-2 {
+    margin-top: 70px;
+}
+
 .pageHome .main {
     background: url("../img/bg-home.jpg") center bottom no-repeat;
     background-size: auto 100%;
@@ -907,7 +912,8 @@ button.app-store {
         font-size: 5rem;
     }
     .pageHome .section {
-        min-height: 63vw;
+        /* min-height: 63vw; */
+        min-height: 50vw;
     }
     .pageHome .section--4 figcaption {
         font-size: 5rem;
@@ -2386,7 +2392,7 @@ input[type="checkbox"] {
 
 .video-languages p {
     font-size: 60px;
-    /* margin-bottom: 50px; */
+    margin-bottom: 0;
 }
 
 .wrap-video {
@@ -2394,6 +2400,8 @@ input[type="checkbox"] {
     overflow: hidden;
     padding-top: calc(591.44 / 1127.34 * 72%);
     width: 72%;
+    background-color: rgba(4, 231, 4, 0.3);
+    margin-top: 50px;
 }
 
 .wrap-video iframe {
@@ -2403,5 +2411,17 @@ input[type="checkbox"] {
     width: 100%;
     height: 100%;
     border: 0;
-    padding-top: 30px;
+    padding: 40px;
+}
+
+.flags-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flags-text span {
+    display: block;
+    padding-top: 15px;
+    padding-right: 16px;
 }

@@ -1,6 +1,12 @@
 /* Ipad pro */
 
 @media (min-width: 1024px) and (max-width: 1366px) {
+    .pageHome .section--2,
+    .pageHome .section--3,
+    .pageHome .section--4,
+    .pageHome .section--4-1 {
+        padding-bottom: 6vw;
+    }
     .pageHome .section--1 h2,
     .pageHome .section--2 h2,
     .pageHome .section--3 h2,
@@ -28,7 +34,7 @@
         width: 90%;
     }
     .wrap-video iframe {
-        padding-top: 20px;
+        padding-top: 40px;
     }
 }
 
@@ -36,6 +42,12 @@
 /* tablet and mobile */
 
 @media (max-width: 1023px) {
+    .pageHome .section--2,
+    .pageHome .section--3,
+    .pageHome .section--4,
+    .pageHome .section--4-1 {
+        padding-bottom: 6vw;
+    }
     .pageHome .section--1 h2,
     .pageHome .section--2 h2,
     .pageHome .section--3 h2,
@@ -70,7 +82,7 @@
         width: 90%;
     }
     .wrap-video iframe {
-        padding-top: 20px;
+        padding-top: 40px;
     }
 }
 
@@ -94,6 +106,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
+        margin-bottom: 20px;
     }
     .pageHome .textBox {
         margin-top: 0.6rem;
@@ -115,9 +128,10 @@
         overflow: hidden;
         padding-top: calc(591.44 / 1127.34 * 90%);
         width: 90%;
+        margin-top: 30px;
     }
     .wrap-video iframe {
-        padding-top: 8px;
+        padding: 20px;
     }
     .video-languages p {
         font-size: 48px;
@@ -153,21 +167,20 @@
         overflow: hidden;
         padding-top: calc(591.44 / 1127.34 * 90%);
         width: 90%;
+        margin-top: 30px;
     }
     .wrap-video iframe {
-        padding-top: 6px;
+        padding: 16px;
     }
     .video-languages p {
         font-size: 46px;
     }
+    .pageHome .kess-board-2 {
+        margin-top: 50px;
+    }
     .flags ul {
         list-style: none;
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
         padding-left: 0;
-        /* text-align: center;
-        flex-wrap: wrap; */
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
@@ -177,13 +190,10 @@
     }
 }
 
-
-}
 @media (max-width: 400px) {
-    .section--1 .link-apps ul {
-        display: grid;
-        grid-template-columns: none;
-        gap: 10px;
-        flex-wrap: wrap;
+    main .section.section--1 .link-apps ul {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
     }
 }
