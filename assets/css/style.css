@@ -420,7 +420,7 @@ ol {
 
 .header__menu ul {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     padding-left: 0;
     margin-top: 20px;
     list-style-type: none;
@@ -786,7 +786,7 @@ button.app-store {
 
 .section--1 .link-apps ul {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     padding-left: 0;
     list-style-type: none;
 }
@@ -995,7 +995,7 @@ button.app-store {
 
 .subscribe-popup.show,
 .game-popup.show {
-    /* visibility: visible; */
+    visibility: visible;
     -moz-transition: fadeIn 1s;
     -o-transition: fadeIn 1s;
     -webkit-animation: fadeIn 1s;
@@ -2424,4 +2424,25 @@ input[type="checkbox"] {
     display: block;
     padding-top: 15px;
     padding-right: 16px;
+}
+
+.header__menu ul li a.buy-a-license {
+    display: block;
+    font-size: 20px;
+    color: #0183d1;
+    width: 146px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.section--1 .link-apps li a.buy-a-license {
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    width: 154px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
