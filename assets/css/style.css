@@ -348,13 +348,16 @@ ol {
 
 @media (max-width: 365px) {
     .header {
-        height: 285px !important;
+        /* height: 285px !important; */
+        height: 350px !important;
+        padding-top: 10px;
     }
 }
 
 @media (max-width: 1199px) {
     .header {
         height: 200px;
+        padding-top: 22px;
     }
 }
 
@@ -624,7 +627,9 @@ button.app-store {
 
 @media (min-width: 1200px) {
     .header {
-        height: 130px;
+        /* height: 130px; */
+        height: 156px;
+        padding-top: 26px;
     }
     .header__logo {
         height: 45px;
