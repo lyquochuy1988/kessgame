@@ -17,6 +17,19 @@
         font-size: 3rem;
         margin-bottom: 20px;
     }
+    /* video flags */
+    .video-languages {
+        padding-top: 30px;
+    }
+    .wrap-video {
+        position: relative;
+        overflow: hidden;
+        padding-top: calc(591.44 / 1127.34 * 90%);
+        width: 90%;
+    }
+    .wrap-video iframe {
+        padding-top: 20px;
+    }
 }
 
 
@@ -45,6 +58,19 @@
     .pageHome .section--1 p.text-app {
         font-size: 2rem;
         margin-bottom: 20px;
+    }
+    /* video flags */
+    .video-languages {
+        padding-top: 30px;
+    }
+    .wrap-video {
+        position: relative;
+        overflow: hidden;
+        padding-top: calc(591.44 / 1127.34 * 90%);
+        width: 90%;
+    }
+    .wrap-video iframe {
+        padding-top: 20px;
     }
 }
 
@@ -80,6 +106,22 @@
         font-size: 1.8rem;
         margin-bottom: 20px;
     }
+    /* video flags */
+    .video-languages {
+        padding-top: 20px;
+    }
+    .wrap-video {
+        position: relative;
+        overflow: hidden;
+        padding-top: calc(591.44 / 1127.34 * 90%);
+        width: 90%;
+    }
+    .wrap-video iframe {
+        padding-top: 8px;
+    }
+    .video-languages p {
+        font-size: 48px;
+    }
 }
 
 
@@ -102,8 +144,41 @@
         font-size: 1.8rem;
         margin-bottom: 20px;
     }
+    /* video flags */
+    .video-languages {
+        padding-top: 20px;
+    }
+    .wrap-video {
+        position: relative;
+        overflow: hidden;
+        padding-top: calc(591.44 / 1127.34 * 90%);
+        width: 90%;
+    }
+    .wrap-video iframe {
+        padding-top: 6px;
+    }
+    .video-languages p {
+        font-size: 46px;
+    }
+    .flags ul {
+        list-style: none;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        padding-left: 0;
+        /* text-align: center;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+    .flags ul li:first-child {
+        padding-left: 10px;
+    }
 }
 
+
+}
 @media (max-width: 400px) {
     .section--1 .link-apps ul {
         display: grid;
